@@ -32,14 +32,10 @@
     "security": {
       "csp": null
     },
-    "windows": [
-      {
-        "fullscreen": false,
-        "resizable": true,
-        "title": "system-tray-app",
-        "width": 800,
-        "height": 600
-      }
-    ]
+    "windows": [],
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true
+    }
   }
 }
