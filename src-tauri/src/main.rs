@@ -34,10 +34,11 @@ fn main() {
                             "tray",
                             tauri::WindowUrl::App("index.html".into()),
                         )
-                        .inner_size(400 as f64, 600 as f64)
+                        .inner_size(450 as f64, 600 as f64)
                         .decorations(false)
                         .focused(true)
                         .always_on_top(true)
+                        .skip_taskbar(true)
                         .build();
 
                         if let Ok(window) = window {
